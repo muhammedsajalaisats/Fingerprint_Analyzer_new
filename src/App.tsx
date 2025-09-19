@@ -80,7 +80,7 @@ function App() {
             Device Fingerprint Analyzer
           </h1>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            {currentStep === 'employeeId' && 'Enter your 8-digit Employee ID to begin the device fingerprint analysis process.'}
+            {currentStep === 'employeeId' && 'Enter your Employee ID to begin the device fingerprint analysis process.'}
             {currentStep === 'fingerprint' && 'Click the button below to generate and view your unique device fingerprint details.'}
             {currentStep === 'results' && 'Your device fingerprint has been successfully generated and analyzed.'}
           </p>
